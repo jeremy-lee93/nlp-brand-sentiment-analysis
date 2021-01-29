@@ -9,6 +9,8 @@ Twitter is the online marketplace for thoughts, feelings, and opinions. We care 
 
 Per Twitter market research - 3 in 4 people look to Twitter users for advice and 9 in 10 people have changed their opinion because of Twitter advice!
 
+With an NLP model that can predict sentiment, we hope to identify negative/neutral tweets so that we might better understand why those users don't have a positive opinion of the brand or product.  That can inform a company like Apple or Google with information as to how they should allocated dollars to marketing and advertising.  We could use the NLP model to predict sentiment, then use some sort of clustering algorithm for market segmentation so we can understand what business decisions we should make next.
+
 ## Exploratory Data Analysis
 
 We measured the sentiment count by each brand/product to see if there was anything that was overwhemingly positive or negative.
@@ -20,13 +22,13 @@ We measured the sentiment count by each brand/product to see if there was anythi
 We also took a look at WordClouds for each of the three classes to see which words/bigrams were most common and which were most unique.
 
 Positive Words and Bigrams
-![images/pos_wordcloud.png]
+![positive_wordcloud](images/pos_wordcloud.png)
 
 Negative Words and Bigrams
-![images/neg_wordcloud.png]
+![negative_wordcloud](images/neg_wordcloud.png)
 
 Neutral Words and Bigrams
-![images/neu_wordcloud.png]
+![neutral_wordcloud](images/neu_wordcloud.png)
 
 
 
